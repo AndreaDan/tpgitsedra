@@ -4,31 +4,25 @@ class Sphere(object):
 
     def __init__(self, radius):
         # *** STEP 1 ***
-        uncomment the following line
+        #uncomment the following line
         self.radius = radius
         pass
 
     # *** STEP 2 ***
-    uncomment the 2 following lines
+    #uncomment the 2 following lines
     def __str__(self):
        return '%s(%s)' % (self.__class__.__name__, self.radius)
 
     def surface(self):
         # *** STEP 3 ***
-         uncomment the following line
+        # uncomment the following line
         return 4.0 * 3.1416 * self.radius ** 2
         pass
 
     def volume(self):
         # *** STEP 4 ***
-<<<<<<< HEAD
         # uncomment the following line
         return 4.0/3.0 * 3.1416 * self.radius ** 3
-=======
-        uncomment the following line
-        return 4/3 * 3.1416 * self.radius ** 3
->>>>>>> refs/remotes/origin/master
-        pass
 
     def diameter(self):
         # *** STEP 5 ***
