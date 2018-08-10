@@ -4,7 +4,7 @@ class Sphere(object):
 
     def __init__(self, radius):
         # *** STEP 1 ***
-        uncomment the following line
+        #uncomment the following line
         self.radius = radius
         pass
 
@@ -15,15 +15,14 @@ class Sphere(object):
 
     def surface(self):
         # *** STEP 3 ***
-         # uncomment the following line
+        # uncomment the following line
         return 4.0 * 3.1416 * self.radius ** 2
         pass
 
     def volume(self):
         # *** STEP 4 ***
-        uncomment the following line
-        return 4/3 * 3.1416 * self.radius ** 3
-        pass
+        # uncomment the following line
+        return 4.0/3.0 * 3.1416 * self.radius ** 3
 
     def diameter(self):
         # *** STEP 5 ***
